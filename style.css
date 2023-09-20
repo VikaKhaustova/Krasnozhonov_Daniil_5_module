@@ -1,0 +1,218 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.socials{
+    position: fixed;
+    right: -10px;
+    top: 220px;
+    border-radius: 10px;
+    width: 90px;
+    height: 390px;
+    padding: 20px;
+    border: 3px solid darkgray;
+    background-color: white;
+}
+
+.discount{
+    position: absolute;
+    top: -40px;
+    left: -50px;
+    width: 120px;
+    rotate: z -30deg;
+}
+
+h1::before {  
+content: url(https://i.ibb.co/DrTPRgm/Star-1-1.png);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1::after {
+content: url(https://i.ibb.co/DrTPRgm/Star-1-1.png);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.address::before {
+    content: url(https://i.ibb.co/qj2fmwy/image-2-5.png);
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tel::before {
+    content: url(https://i.ibb.co/Ykv4t7n/image-2-1.png); 
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.button:hover {
+    background-color: blue; 
+    color: rgb(56, 0, 112);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+    display: block;  
+}
+
+.nav-link:hover {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-bottom: 3px dotted lightgray;
+    background-color: gray;
+    padding: 5px;
+}
+
+.button:focus {
+    background-color: lightgray; 
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    display: block;  
+}
+
+.nav-link:focus {
+    font-size: 30px;
+    color: darkblue;
+    text-decoration: none;
+    display: block;
+    border-bottom: 3px dotted white;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.button:visited {
+    background-color: whit; 
+    color: purple;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+    display: block;  
+}
+
+.nav-link:visited {
+    font-size: 30px;
+    color: darkmagenta;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.post:hover .article-but {
+    border: 5px solid #133aac;
+    background-color: white;
+    color: #133aac;
+    
+}
+
+.post:hover {
+    border: 5px solid darkturquoise;
+    background-color: darkgray;
+}
